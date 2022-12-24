@@ -63,7 +63,7 @@ class app extends Component {
   }
 
   componentDidMount() {
-    fetch("https://nith-portal22.herokuapp.com/api/v1/student")
+    fetch("https://nith-portal-11-qsje.onrender.com/api/v1/student")
       .then((response) => {
         return response.json();
       })
